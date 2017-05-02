@@ -96,7 +96,7 @@ class LinearHashIndex (HashIndex):
         :raises ValueError: No index to query from.
 
         :return: Tuple of nearest N hash codes and a tuple of the distance
-            values to those neighbors.
+            values to those neighbors. Distance values are in the range [0, 1].
         :rtype: (tuple[numpy.ndarray[bool], tuple[float])
 
         """
